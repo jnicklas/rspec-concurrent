@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require "rspec/concurrent"
+RSpec::Concurrent::Runner.run(ARGV)
